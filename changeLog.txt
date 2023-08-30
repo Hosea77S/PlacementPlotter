@@ -1,0 +1,24 @@
+qPlace 1.1.0-beta (Dec. 2018)
+
+Added functions to generate a balanced clock tree topology for clock tree synthesis. In this clock topology, difference between number of clock splitters from source to any sink nodes in less than or equal to 1.
+Can be enabled using flag -BAL (command line argument)
+Added a routability driven detailed placement to improve placement results in terms of max wirelength and routability. Can be enabled using flag -RDP (command line argument)
+--------------------------------------------------------------------------------
+qCTS 1.2.0-beta (Feb. 2019)
+Added functions to qCTS to handle linear delay model.
+
+--------------------------------------------------------------------------------
+
+qCTS 1.3.0-beta (Aug. 2019)
+Added support for fixing hold time violations after the CTS and placement, using option -fixHold
+Added support for generation layouts with different aspect ration & percentage of whitespace, using option -layout
+ 
+--------------------------------------------------------------------------------
+
+qPlace 1.6.0
+Fixed the bug for andN.v with N=1 (a circuit with only one clocked element.)
+
+--------------------------------------------------------------------------------
+qPlace 1.7.1 (Jan 2020)
+Added support for non-uniform vertical spacing between rows to facilitate routing
+

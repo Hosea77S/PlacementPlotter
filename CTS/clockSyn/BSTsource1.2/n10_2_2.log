@@ -1,0 +1,335 @@
+*******************************************************************************
+* Version BSTsource1.1 ,  05-11-2002                                          *
+* Copyright (C) 1994-2002  by Andrew B. Kahng, C.-W. Albert Tsao              *
+* usage: bst -i inputFileName -B number -spD splitterDelay                    *
+*******************************************************************************
+
+SPL_Delay: 2
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+nterms is : 10
+npoints is : 20
+
+--------------------------------------------------------
+bst BENCHMARKS/n10 (nterms=10, Npoints=20) N_Obstalces = 0
+Elmore delay model  Skew_B = 2.00 k_Parameter: -1 CostFx=1.0
+BME_MODE
+Current Time: Thu May 24 11:48:51 2018
+ 
+--------------------------------------------------------
+
+============================================================
+=  run ExG_DME on cluster (L=1:i=0/1) cid=0 
+=  n_trees = 10 
+============================================================
+BME_merging_cost(bst.cxx): 555
+BME_merging_cost(bst.cxx): 483
+BME_merging_cost(bst.cxx): 279
+BME_merging_cost(bst.cxx): 554
+BME_merging_cost(bst.cxx): 483
+BME_merging_cost(bst.cxx): 472
+BME_merging_cost(bst.cxx): 555
+BME_merging_cost(bst.cxx): 554
+BME_merging_cost(bst.cxx): 250
+BME_merging_cost(bst.cxx): 250
+BME_merging_cost(bst.cxx): 279
+BME_merging_cost(bst.cxx): 472
+BME_merging_cost(bst.cxx): 970
+BME_merging_cost(bst.cxx): 920
+BME_merging_cost(bst.cxx): 628
+BME_merging_cost(bst.cxx): 627
+BME_merging_cost(bst.cxx): 549
+BME_merging_cost(bst.cxx): 598
+BME_merging_cost(bst.cxx): 572
+BME_merging_cost(bst.cxx): 628
+BME_merging_cost(bst.cxx): 521
+BME_merging_cost(bst.cxx): 853
+BME_merging_cost(bst.cxx): 903
+BME_merging_cost(bst.cxx): 575
+BME_merging_cost(bst.cxx): 881
+BME_merging_cost(bst.cxx): 855
+BME_merging_cost(bst.cxx): 627
+BME_merging_cost(bst.cxx): 804
+BME_merging_cost(bst.cxx): 615
+BME_merging_cost(bst.cxx): 565
+BME_merging_cost(bst.cxx): 521
+BME_merging_cost(bst.cxx): 804
+BME_merging_cost(bst.cxx): 532
+BME_merging_cost(bst.cxx): 979
+BME_merging_cost(bst.cxx): 953
+BME_merging_cost(bst.cxx): 831
+BME_merging_cost(bst.cxx): 970
+BME_merging_cost(bst.cxx): 615
+BME_merging_cost(bst.cxx): 674
+BME_merging_cost(bst.cxx): 598
+BME_merging_cost(bst.cxx): 881
+BME_merging_cost(bst.cxx): 621
+BME_merging_cost(bst.cxx): 853
+BME_merging_cost(bst.cxx): 979
+BME_merging_cost(bst.cxx): 674
+BME_merging_cost(bst.cxx): 724
+BME_merging_cost(bst.cxx): 575
+BME_merging_cost(bst.cxx): 831
+BME_merging_cost(bst.cxx): 920
+BME_merging_cost(bst.cxx): 565
+BME_merging_cost(bst.cxx): 724
+BME_merging_cost(bst.cxx): 572
+BME_merging_cost(bst.cxx): 855
+BME_merging_cost(bst.cxx): 583
+BME_merging_cost(bst.cxx): 903
+BME_merging_cost(bst.cxx): 953
+BME_merging_cost(bst.cxx): 621
+BME_merging_cost(bst.cxx): 583
+BME_merging_cost(bst.cxx): 549
+BME_merging_cost(bst.cxx): 532
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 60/10 = 6.0 
+nodes_with_neighbor/nodes = 10/10 = 1.00
+neighbors/nodes = 10/10 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=10, #_nodes=11, #_mering_pairs=3
+node 11 == merge-pair (6,8)
+node 12 == merge-pair (1,9)
+node 13 == merge-pair (2,5)
+BME_merging_cost(bst.cxx): 627
+BME_merging_cost(bst.cxx): 628
+BME_merging_cost(bst.cxx): 627
+BME_merging_cost(bst.cxx): 517
+BME_merging_cost(bst.cxx): 724
+BME_merging_cost(bst.cxx): 724
+BME_merging_cost(bst.cxx): 628
+BME_merging_cost(bst.cxx): 517
+BME_merging_cost(bst.cxx): 1444
+BME_merging_cost(bst.cxx): 970
+BME_merging_cost(bst.cxx): 1679.63
+BME_merging_cost(bst.cxx): 555
+BME_merging_cost(bst.cxx): 1161
+BME_merging_cost(bst.cxx): 893
+BME_merging_cost(bst.cxx): 1396.63
+BME_merging_cost(bst.cxx): 804
+BME_merging_cost(bst.cxx): 1089
+BME_merging_cost(bst.cxx): 615
+BME_merging_cost(bst.cxx): 1324.63
+BME_merging_cost(bst.cxx): 555
+BME_merging_cost(bst.cxx): 804
+BME_merging_cost(bst.cxx): 566
+BME_merging_cost(bst.cxx): 1089
+BME_merging_cost(bst.cxx): 1444
+BME_merging_cost(bst.cxx): 1161
+BME_merging_cost(bst.cxx): 1095
+BME_merging_cost(bst.cxx): 887.633
+BME_merging_cost(bst.cxx): 615
+BME_merging_cost(bst.cxx): 970
+BME_merging_cost(bst.cxx): 893
+BME_merging_cost(bst.cxx): 661
+BME_merging_cost(bst.cxx): 1143
+BME_merging_cost(bst.cxx): 1095
+BME_merging_cost(bst.cxx): 661
+BME_merging_cost(bst.cxx): 1330.63
+BME_merging_cost(bst.cxx): 566
+BME_merging_cost(bst.cxx): 1324.63
+BME_merging_cost(bst.cxx): 1679.63
+BME_merging_cost(bst.cxx): 1396.63
+BME_merging_cost(bst.cxx): 1330.63
+BME_merging_cost(bst.cxx): 887.633
+BME_merging_cost(bst.cxx): 1143
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 42/7 = 6.0 
+nodes_with_neighbor/nodes = 7/7 = 1.00
+neighbors/nodes = 7/7 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=7, #_nodes=14, #_mering_pairs=2
+node 14 == merge-pair (3,12)
+node 15 == merge-pair (7,13)
+BME_merging_cost(bst.cxx): 555
+BME_merging_cost(bst.cxx): 931.236
+BME_merging_cost(bst.cxx): 555
+BME_merging_cost(bst.cxx): 883
+BME_merging_cost(bst.cxx): 1521.91
+BME_merging_cost(bst.cxx): 931.236
+BME_merging_cost(bst.cxx): 883
+BME_merging_cost(bst.cxx): 1521.91
+BME_merging_cost(bst.cxx): 970
+BME_merging_cost(bst.cxx): 970
+BME_merging_cost(bst.cxx): 2241.91
+BME_merging_cost(bst.cxx): 615
+BME_merging_cost(bst.cxx): 615
+BME_merging_cost(bst.cxx): 1886.91
+BME_merging_cost(bst.cxx): 970
+BME_merging_cost(bst.cxx): 615
+BME_merging_cost(bst.cxx): 972
+BME_merging_cost(bst.cxx): 972
+BME_merging_cost(bst.cxx): 972
+BME_merging_cost(bst.cxx): 2111.56
+BME_merging_cost(bst.cxx): 2241.91
+BME_merging_cost(bst.cxx): 1886.91
+BME_merging_cost(bst.cxx): 2111.56
+BME_merging_cost(bst.cxx): 1521.91
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 24/5 = 4.8 
+nodes_with_neighbor/nodes = 5/5 = 1.00
+neighbors/nodes = 5/5 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=5, #_nodes=16, #_mering_pairs=1
+node 16 == merge-pair (11,4)
+BME_merging_cost(bst.cxx): 931.236
+BME_merging_cost(bst.cxx): 1229.96
+BME_merging_cost(bst.cxx): 931.236
+BME_merging_cost(bst.cxx): 1243.96
+BME_merging_cost(bst.cxx): 1936.91
+BME_merging_cost(bst.cxx): 1229.96
+BME_merging_cost(bst.cxx): 1243.96
+BME_merging_cost(bst.cxx): 1936.91
+BME_merging_cost(bst.cxx): 1229.96
+BME_merging_cost(bst.cxx): 2241.91
+BME_merging_cost(bst.cxx): 1229.96
+BME_merging_cost(bst.cxx): 1229.96
+BME_merging_cost(bst.cxx): 1243.96
+BME_merging_cost(bst.cxx): 2111.56
+BME_merging_cost(bst.cxx): 1243.96
+BME_merging_cost(bst.cxx): 1243.96
+BME_merging_cost(bst.cxx): 1936.91
+BME_merging_cost(bst.cxx): 2241.91
+BME_merging_cost(bst.cxx): 2111.56
+BME_merging_cost(bst.cxx): 1936.91
+BME_merging_cost(bst.cxx): 1936.91
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 21/4 = 5.2 
+nodes_with_neighbor/nodes = 4/4 = 1.00
+neighbors/nodes = 4/4 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=4, #_nodes=17, #_mering_pairs=2
+node 17 == merge-pair (0,14)
+node 18 == merge-pair (15,16)
+BME_merging_cost(bst.cxx): 3400.16
+BME_merging_cost(bst.cxx): 3400.16
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 2/2 = 1.0 
+nodes_with_neighbor/nodes = 2/2 = 1.00
+neighbors/nodes = 2/2 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=2, #_nodes=19, #_mering_pairs=1
+node 19 == merge-pair (17,18)
+
+Total number of buffered_Node: 1
+set_MaxClusterDelay_sub: 626.429
+set_MaxClusterDelay_sub: 626.429
+Before: pt: (0.373545,0.282226)
+After: pt: (2.37355,2.28223)
+Before: pt: (3.44201,1.44201)
+After: pt: (5.44201,3.44201)
+Before: pt: (5.44201,3.44201)
+After: pt: (7.44201,5.44201)
+Before: pt: (2.47013,0.470127)
+After: pt: (4.47013,2.47013)
+Before: pt: (4.67109,2.67109)
+After: pt: (6.67109,4.67109)
+Before: pt: (0.415056,0)
+After: pt: (2.41506,2)
+Before: pt: (3.03249,2)
+After: pt: (5.03249,4)
+Before: pt: (14.2422,12.2422)
+After: pt: (16.2422,14.2422)
+Before: pt: (25.5647,23.5647)
+After: pt: (27.5647,25.5647)
+
+
+================== level 0 ===============================
+WL[ 0]=  +3200.2 skew=2 (27.6-25.6)C5.009 (n 10) R_b100  Stub0(0)  t28
+total capacitance of  level[ 0] = 5.059 Frad
+===========================================================
+
+total wirelength = 3200 
+
+BENCHMARKS/n10:WL=      3200 B=2ps t:628.4 (27.6)(5.009)Time:00:00:00(    0 sec.)(-2)
+
+
+Total wirelength: 3200.156196
+Total Delay: (calc_buffered_node_delay:bst_sub1.cxx) 628.428719 ps
+R_buffer =  100.000000 Oh
+C_buffer =  50.000000 FF
+Delay_buffer =  0.100000 ns
+R[H], R[V]: 0.016600 Oh  0.016600 Oh
+C[H], C[V]: 0.002700 FF  0.002700 FF 
+Routing pattern: 1.0 (1:HV, 0:VH) 
+
+k=-1, Cost_fx=1.0,N_Neighbor=1 
+Treewire = 3104.6 (detour:3.1%) ***n_detour_nodes = 2 (20.000000%) ***
+skew(19)=2.000000=(27.564677-25.564677) 
+BME_MODE
+
+Max_n_regions (irredundant) = 0 (0)
+0 pairs of overlapped regions (0%)
+Node[16].n_mr = 7
+Node[11].npts = 4
+n_region_type:(V=0,H=0,M=20,F=0,T=0)
+open file (for write) BENCHMARKS/n10.top_B2
+
+open file (for write) BENCHMARKS/n10.xg_B2
+
+open file (clock cells) BENCHMARKS/n10.clocks
+
+Writing to clocks file: BENCHMARKS/n10.clocks
+open file (for write) BENCHMARKS/n10_area.xg_B2
+
+User: [00:00:00 ]
+Sys:  [00:00:00 ]
+
+
+
+
+Current Time: Thu May 24 11:48:51 2018
+ 
+=================================
+Time:00:00:00(    0 sec.)
+Total wirelength: 3200.156196
+=================================
+Exiting 
+
+
+
+
+

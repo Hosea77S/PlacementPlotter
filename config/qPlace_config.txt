@@ -1,0 +1,13 @@
+#Track pitch (um)
+PITCH = "10.0"
+
+#Width and Height of clock splitter cells (um)
+SPL_WIDTH  = "30.0" 
+SPL_HEIGHT = "70.0" 
+
+#Delay of splitter cell (ps) 
+SPL_DELAY = "6.6" 
+
+#Width and Height of I/O pads (um) 
+PAD_WIDTH =  "100.0" 
+PAD_HEIGHT = "120.0" 

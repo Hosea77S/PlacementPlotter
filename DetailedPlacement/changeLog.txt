@@ -1,0 +1,1 @@
+06.06.2018 // changed ../bookshelf.h in hgWDims.h rbPlacement.h bookshelf.cpp

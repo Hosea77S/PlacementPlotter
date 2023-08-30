@@ -1,0 +1,73 @@
+//==============================================================================//
+//                                qPlace_v.1.3.0                                //
+//                                                                              //
+//               Written by Soheil Nazar Shahsavani and Massoud Pedram          //
+//      SPORT Lab, University of Southern California, Los Angeles, CA 90089     //
+//                           http://sportlab.usc.edu/                           //
+//                     ColdFlux Project, http://coldflux.usc.edu                //
+//                                                                              //
+//  For licensing, please refer to the LICENSE file.                            //
+//                                                                              //
+//                                                                              //
+// The development is supported by                                              //   
+//   Office of the Director of National Intelligence (ODNI),                    //
+//   Intelligence Advanced Research Projects Activity (IARPA) SuperTool program,//
+//   via the U.S. Army Research Office grant W911NF-17-1-0120.                  //
+//                                                                              //
+//==============================================================================//
+
+
+
+I. LICENSE
+
+Copyright (C) 2018 Soheil Nazar Shahsavani, Ting-Ru Lin, Ghasem Pasandi, Naveen Katam, Alireza Shafaei, and Massoud Pedram, SPORT lab, University of Southern California, Los Angeles, CA 90089.
+All rights reserved.
+
+Permission is hereby granted, without written agreement and without license or royalty fees, to use, copy, and modify, this software and its documentation for any non-commercial purpose, provided that the above copyright notice and the following paragraphs appear in all copies of this software, whether in binary form or not. Commercial use of this software requires written agreement which must be obtained from Massoud Pedram <pedram@usc.edu>.
+
+IN NO EVENT SHALL THE AUTHORS OR THE UNIVERSITY OF SOUTHERN CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THEY HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+THE AUTHORS AND THE UNIVERSITY OF SOUTHERN CALIFORNIA SPECIFICALLY DISCLAIM ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE AUTHORS HAVE NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+The development of this suite of tools for SFQ synthesis and physical design was supported by the Office of the Director of National Intelligence (ODNI), Intelligence Advanced Research Projects Activity (IARPA), via the U.S. Army Research Office grant W911NF-17-1-0120. 
+The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the ODNI, IARPA, or the U.S. Government. The U.S. Government is authorized to reproduce and distribute copies for Governmental purposes notwithstanding any copyright notation herein.
+
+If you use this software or a modified version of it, please cite either or both of the following papers:
+
+- Soheil Nazar Shahsavani, Ting-Ru Lin, Alireza Shafaei, Coenrad Fourie, and Massoud Pedram, "An Integrated Row-Based Cell Placement and Interconnect Synthesis Tool for Large SFQ Logic Circuits," IEEE Transactions on Applied Superconductivity, Vol. 27, No. 4, pp. 1-8, June 2017.
+
+
+- G. Pasandi, A. Shafaei and M. Pedram, "SFQmap: A Technology Mapping Tool for Single Flux Quantum Logic Circuits," 2018 IEEE International Symposium on Circuits and Systems (ISCAS), Florence, Italy, 2018, pp. 1-5.
+
+
+II. EXCEPTIONS
+
+1) ABC: System for Sequential Synthesis and Verification
+-----------------------------------------------------
+Please refer to 'qSynthesis/qABC/copyright.txt' to read the ABC copyright statement.
+
+http://www.eecs.berkeley.edu/~alanmi/abc/
+
+
+
+2) Yosys: Open SYnthesis Suite                                        
+-----------------------------------------------------
+Please refer to 'qSynthesis/README' to read the Yosys copyright statement.
+
+
+
+3) CAPO: a large-scale fixed-fie Floorplacer
+
+Some of the functions for qPlace package are obtained from CAPO's source code.
+Please refer to 'qPlace/CAPO/COPYRIGHT' to read the CAPO copyright statement.                                        
+
+
+
+4) Qrouter
+-----------------------------------------------------
+Qrouter is licensed under the GNU General Public License Version 2. Please refer to 'routing/qrouter-1.3.46/COPYRIGHT' for the license.
+
+http://opencircuitdesign.com/qrouter/
+
+================================================================================
+

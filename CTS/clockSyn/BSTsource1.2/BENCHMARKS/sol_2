@@ -1,0 +1,48 @@
+
+NumPins : 10 
+
+PerUnitResistance : 0.003000 
+
+PerUnitCapacitance : 2.000000e-17 
+
+Sink : 0 
+    Coordinate : 0 0 
+    Capacitive Load :  20.000000e-14 
+
+Sink : 1 
+    Coordinate : 0 1000 
+    Capacitive Load :  20.000000e-14 
+
+Sink : 2 
+    Coordinate : 1000 0 
+    Capacitive Load :  5.000000e-14 
+
+Sink : 3 
+    Coordinate : 1000 1000 
+    Capacitive Load :  5.000000e-14 
+
+Sink : 4 
+    Coordinate : 750 750 
+    Capacitive Load :  5.000000e-14 
+
+Sink : 5 
+    Coordinate : 1000 750 
+    Capacitive Load :  5.000000e-14 
+
+Sink : 6 
+    Coordinate : 750 1000 
+    Capacitive Load :  5.000000e-14 
+
+Sink : 7 
+    Coordinate : 1000 250 
+    Capacitive Load :  5.000000e-14 
+	
+Sink : 8	
+    Coordinate : 750 250 
+    Capacitive Load :  5.000000e-14 
+
+Sink : 9	
+    Coordinate : 750 0 
+    Capacitive Load :  5.000000e-14
+
+	

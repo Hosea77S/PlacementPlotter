@@ -1,0 +1,323 @@
+*******************************************************************************
+* Version BSTsource1.1 ,  05-11-2002                                          *
+* Copyright (C) 1994-2002  by Andrew B. Kahng, C.-W. Albert Tsao              *
+* usage: bst -i inputFileName -B number -spD splitterDelay                    *
+*******************************************************************************
+
+Found topology file: ../../../benchmarks/KSA_1/KSA1_topology.top
+SPL_Delay: 5.5
+nterms is : 10
+npoints is : 20
+
+--------------------------------------------------------
+bst ../../../benchmarks/KSA_1/KSA1.sinks (nterms=10, Npoints=20) N_Obstalces = 0
+Elmore delay model  Skew_B = 0.00 
+BME_MODE
+Current Time: Thu Oct 25 17:40:11 2018
+ 
+--------------------------------------------------------
+
+
+Left: 4 L,R,P=[-1,-1,11]
+m_stnPt: 890,760
+
+Right: 6 L,R,P=[-1,-1,11]
+m_stnPt: 830,760
+
+In do_calc_JS:
+JSs: 0,0=[890,760]
+JSs: 0,1=[890,760]
+JSs: 1,0=[830,760]
+JSs: 1,1=[830,760]
+After In do_calc_JS:
+In MergeArea
+IN if loop: Manhattan_arc
+n_mr: 1
+0: 860,760
+n_mr_area_R: 1
+0: 830,760
+n_mr_area_L: 1
+0: 890,760
+area->line
+0,0: 890,760
+0,1: 890,760
+1,0: 830,760
+1,1: 830,760
+
+After Merge2Nodes:
+
+Left: 11 L,R,P=[4,6,12]
+m_stnPt: 0,0
+"node[11]0:1
+"mr
+move 860.00000000  760.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     860.00000000  760.00000000  skew:0.00, max:0.01, min:0.01
+
+dist=60 
+move  890.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+      890.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+move  830.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+      830.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+move 860.00000000  760.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     860.00000000  760.00000000  skew:0.00, max:0.01, min:0.01
+
+dist=0 
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move 890.00000000  760.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     890.00000000  760.00000000  skew:0.00, max:0.00, min:0.00
+
+dist=0 
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move 830.00000000  760.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     830.00000000  760.00000000  skew:0.00, max:0.00, min:0.00
+
+LeftArea:0,0:890,760 0,1:890,760
+1,0:830,760 1,1:830,760
+MRs:
+0: 860,760
+subtree cost: 60
+dist: 60
+L and R edgelens: 30, 30
+----------------------------
+
+
+Left: 7 L,R,P=[-1,-1,12]
+m_stnPt: 830,600
+
+Right: 11 L,R,P=[4,6,12]
+m_stnPt: 860,760
+
+In do_calc_JS:
+JSs: 0,0=[830,600]
+JSs: 0,1=[830,600]
+JSs: 1,0=[860,760]
+JSs: 1,1=[860,760]
+After In do_calc_JS:
+In MergeArea
+IN if loop: Manhattan_arc
+n_mr: 2
+0: 860,706.116
+1: 830,736.116
+n_mr_area_R: 1
+0: 860,760
+n_mr_area_L: 1
+0: 830,600
+area->line
+0,0: 830,600
+0,1: 830,600
+1,0: 860,760
+1,1: 860,760
+
+After Merge2Nodes:
+
+Left: 12 L,R,P=[7,11,14]
+m_stnPt: 0,0
+"node[12]0:1
+"mr
+move 860.00000000  706.11612903  (JS_type=2)(n_mr=2)(cap=0.2)
+     830.00000000  736.11612903  skew:0.00, max:0.03, min:0.03
+     860.00000000  706.11612903  skew:0.00, max:0.03, min:0.03
+
+dist=190 
+move  830.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+      830.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+move  860.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+      860.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+move 860.00000000  706.11612903  (JS_type=2)(n_mr=2)(cap=0.2)
+     830.00000000  736.11612903  skew:0.00, max:0.03, min:0.03
+     860.00000000  706.11612903  skew:0.00, max:0.03, min:0.03
+
+dist=0 
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move 830.00000000  600.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     830.00000000  600.00000000  skew:0.00, max:0.00, min:0.00
+
+dist=60 
+move  890.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+      890.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+move  830.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+      830.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+move 860.00000000  760.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     860.00000000  760.00000000  skew:0.00, max:0.01, min:0.01
+
+LeftArea:0,0:830,600 0,1:830,600
+1,0:860,760 1,1:860,760
+MRs:
+0: 860,706.116
+1: 830,736.116
+subtree cost: 250
+dist: 190
+L and R edgelens: 136.116, 53.8839
+----------------------------
+
+
+Left: 0 L,R,P=[-1,-1,13]
+m_stnPt: 770,600
+
+Right: 3 L,R,P=[-1,-1,13]
+m_stnPt: 720,600
+
+In do_calc_JS:
+JSs: 0,0=[770,600]
+JSs: 0,1=[770,600]
+JSs: 1,0=[720,600]
+JSs: 1,1=[720,600]
+After In do_calc_JS:
+In MergeArea
+IN if loop: Manhattan_arc
+n_mr: 1
+0: 745,600
+n_mr_area_R: 1
+0: 720,600
+n_mr_area_L: 1
+0: 770,600
+area->line
+0,0: 770,600
+0,1: 770,600
+1,0: 720,600
+1,1: 720,600
+
+After Merge2Nodes:
+
+Left: 13 L,R,P=[0,3,14]
+m_stnPt: 0,0
+"node[13]0:1
+"mr
+move 745.00000000  600.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     745.00000000  600.00000000  skew:0.00, max:0.01, min:0.01
+
+dist=50 
+move  770.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+      770.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+move  720.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+      720.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+move 745.00000000  600.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     745.00000000  600.00000000  skew:0.00, max:0.01, min:0.01
+
+dist=0 
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move 770.00000000  600.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     770.00000000  600.00000000  skew:0.00, max:0.00, min:0.00
+
+dist=0 
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move    0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+        0.0    0.0 skew:   0.0, max=   0.0, min=   0.0
+move 720.00000000  600.00000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     720.00000000  600.00000000  skew:0.00, max:0.00, min:0.00
+
+LeftArea:0,0:770,600 0,1:770,600
+1,0:720,600 1,1:720,600
+MRs:
+0: 745,600
+subtree cost: 50
+dist: 50
+L and R edgelens: 25, 25
+----------------------------
+
+
+Left: 12 L,R,P=[7,11,14]
+m_stnPt: 845,721.116
+
+Right: 13 L,R,P=[0,3,14]
+m_stnPt: 745,600
+
+In do_calc_JS:
+
+Before: in calc_JS_sub1
+
+LeftArea:0,0:0,0 0,1:0,0
+1,0:0,0 1,1:0,0
+MRs:
+subtree cost: 0
+dist: 1.79769e+308
+L and R edgelens: 0, 0
+in calc_JS_sub2
+
+	ldist = 221.116 , area->dist= 1.79769e+308
+In else if (ldist < area->dist ) loop
+
+After calc_JS_sub1: 
+
+LeftArea:0,0:0,0 0,1:0,0
+1,0:0,0 1,1:0,0
+MRs:
+subtree cost: 0
+dist: 221.116
+L and R edgelens: 0, 0
+In MergeArea
+IN if loop: Manhattan_arc
+n_mr: 2
+0: 860,641.604
+1: 764.388,737.216
+n_mr_area_R: 1
+0: 745,601.1
+n_mr_area_L: 2
+0: 860,707.216
+1: 830,737.216
+area->line
+0,0: 860,707.216
+0,1: 830,737.216
+1,0: 745,601.1
+1,1: 745,601.1
+
+After Merge2Nodes:
+
+Left: 14 L,R,P=[12,13,19]
+m_stnPt: 0,0
+"node[14]0:1
+"mr
+move 860.00000000  641.60416524  (JS_type=2)(n_mr=2)(cap=0.3)
+     764.38803621  737.21612903  skew:0.00, max:0.07, min:0.07
+     860.00000000  641.60416524  skew:0.00, max:0.07, min:0.07
+
+dist=221 
+move  860.0  707.2 skew:   0.0, max=   0.0, min=   0.0
+      830.0  737.2 skew:   0.0, max=   0.0, min=   0.0
+move  745.0  601.1 skew:   0.0, max=   0.0, min=   0.0
+      745.0  601.1 skew:   0.0, max=   0.0, min=   0.0
+move 860.00000000  641.60416524  (JS_type=2)(n_mr=2)(cap=0.3)
+     764.38803621  737.21612903  skew:0.00, max:0.07, min:0.07
+     860.00000000  641.60416524  skew:0.00, max:0.07, min:0.07
+
+dist=190 
+move  830.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+      830.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+move  860.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+      860.0  760.0 skew:   0.0, max=   0.0, min=   0.0
+move 860.00000000  707.21612903  (JS_type=2)(n_mr=2)(cap=0.2)
+     830.00000000  737.21612903  skew:0.00, max:0.03, min:0.03
+     860.00000000  707.21612903  skew:0.00, max:0.03, min:0.03
+
+dist=50 
+move  770.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+      770.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+move  720.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+      720.0  600.0 skew:   0.0, max=   0.0, min=   0.0
+move 745.00000000  601.10000000  (JS_type=2)(n_mr=1)(cap=0.1)
+     745.00000000  601.10000000  skew:0.00, max:0.01, min:0.01
+
+LeftArea:0,0:860,707.216 0,1:830,737.216
+1,0:745,601.1 1,1:745,601.1
+MRs:
+0: 860,641.604
+1: 764.388,737.216
+subtree cost: 521.116
+dist: 221.116
+L and R edgelens: 65.612, 155.504
+----------------------------
+
+warning: p=12:v= 7, edgelen = 136.116129032, dist = 137.216129032

@@ -1,0 +1,159 @@
+*******************************************************************************
+* Version BSTsource1.1 ,  05-11-2002                                          *
+* Copyright (C) 1994-2002  by Andrew B. Kahng, C.-W. Albert Tsao              *
+* usage: bst -i inputFileName -B number -spD splitterDelay                    *
+*******************************************************************************
+
+SPL_Delay: 0
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+nterms is : 10
+npoints is : 20
+
+--------------------------------------------------------
+bst BENCHMARKS/n10 (nterms=10, Npoints=20) N_Obstalces = 0
+Elmore delay model  Skew_B = 1000.00 k_Parameter: -1 CostFx=1.0
+BME_MODE
+Current Time: Wed May 23 17:18:26 2018
+ 
+--------------------------------------------------------
+
+============================================================
+=  run ExG_DME on cluster (L=1:i=0/1) cid=0 
+=  n_trees = 10 
+============================================================
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 60/10 = 6.0 
+nodes_with_neighbor/nodes = 10/10 = 1.00
+neighbors/nodes = 10/10 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=10, #_nodes=11, #_mering_pairs=3
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 42/7 = 6.0 
+nodes_with_neighbor/nodes = 7/7 = 1.00
+neighbors/nodes = 7/7 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=7, #_nodes=14, #_mering_pairs=2
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 31/9 = 3.4 
+nodes_with_neighbor/nodes = 9/9 = 1.00
+neighbors/nodes = 9/9 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=5, #_nodes=16, #_mering_pairs=2
+Before: pt: (1.12921,1.12921)After: pt: (1.12921,1.12921)Before: pt: (1.97667,0.282226)After: pt: (1.97667,0.282226)Before: pt: (2.35046,0.186761)After: pt: (2.35046,0.186761)
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 72/13 = 5.5 
+nodes_with_neighbor/nodes = 13/13 = 1.00
+neighbors/nodes = 13/13 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=3, #_nodes=18, #_mering_pairs=1
+Before: pt: (2.53358,0.406754)After: pt: (2.53358,0.406754)Before: pt: (6.32317,0.813615)After: pt: (6.32317,0.813615)Before: pt: (11.0109,1.56119)After: pt: (11.0109,1.56119)Before: pt: (2.53358,0.406754)After: pt: (2.53358,0.406754)Before: pt: (6.32317,0.813615)After: pt: (6.32317,0.813615)Before: pt: (15.7002,0)After: pt: (15.7002,0)Before: pt: (16.5314,0.207514)After: pt: (16.5314,0.207514)
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 23/16 = 1.4 
+nodes_with_neighbor/nodes = 8/16 = 0.50
+neighbors/nodes = 8/16 = 0.50
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=2, #_nodes=19, #_mering_pairs=1
+Before: pt: (2.53358,0.406754)After: pt: (2.53358,0.406754)Before: pt: (6.32317,0.813615)After: pt: (6.32317,0.813615)Before: pt: (15.7002,0)After: pt: (15.7002,0)Before: pt: (17.3626,0)After: pt: (17.3626,0)Before: pt: (24.9462,1.5155)After: pt: (24.9462,1.5155)Before: pt: (2.53358,0.406754)After: pt: (2.53358,0.406754)Before: pt: (6.32317,0.813615)After: pt: (6.32317,0.813615)Before: pt: (15.7002,0)After: pt: (15.7002,0)Before: pt: (17.3626,0)After: pt: (17.3626,0)Before: pt: (26.0059,1.30365)After: pt: (26.0059,1.30365)Before: pt: (30.0951,0.680751)After: pt: (30.0951,0.680751)Before: pt: (2.53358,0.406754)After: pt: (2.53358,0.406754)Before: pt: (6.32317,0.813615)After: pt: (6.32317,0.813615)Before: pt: (15.7002,0)After: pt: (15.7002,0)Before: pt: (17.3626,0)After: pt: (17.3626,0)Before: pt: (26.0059,1.30365)After: pt: (26.0059,1.30365)Before: pt: (32.4888,0.282226)After: pt: (32.4888,0.282226)Before: pt: (33.7978,0.186761)After: pt: (33.7978,0.186761)Before: pt: (2.53358,0.406754)After: pt: (2.53358,0.406754)Before: pt: (6.32317,0.813615)After: pt: (6.32317,0.813615)Before: pt: (15.7002,0)After: pt: (15.7002,0)Before: pt: (17.3626,0)After: pt: (17.3626,0)Before: pt: (26.0059,1.30365)After: pt: (26.0059,1.30365)Before: pt: (32.4888,0.282226)After: pt: (32.4888,0.282226)Before: pt: (35.1067,0)After: pt: (35.1067,0)Before: pt: (44.1477,1.12921)After: pt: (44.1477,1.12921)
+Total numver of buffered_Node: 1
+set_MaxClusterDelay_sub: 642.15
+set_MaxClusterDelay_sub: 642.726
+set_MaxClusterDelay_sub: 660.998
+Before: pt: (2.53358,0.406754)After: pt: (2.53358,0.406754)Before: pt: (6.32317,0.813615)After: pt: (6.32317,0.813615)Before: pt: (15.7002,0)After: pt: (15.7002,0)Before: pt: (17.3626,0)After: pt: (17.3626,0)Before: pt: (26.0059,1.30365)After: pt: (26.0059,1.30365)Before: pt: (32.4888,0.282226)After: pt: (32.4888,0.282226)Before: pt: (35.1067,0)After: pt: (35.1067,0)Before: pt: (41.555,1.45319)After: pt: (41.555,1.45319)Before: pt: (50.9786,1.04616)After: pt: (50.9786,1.04616)
+
+================== level 0 ===============================
+WL[ 0]=  +2204.0 skew=50 (51.0-1.0)C5.006 (n 10) R_b100  Stub0(0)  t51
+total capacitance of  level[ 0] = 5.056 Frad
+===========================================================
+
+total wirelength = 2204 
+
+BENCHMARKS/n10:WL=      2204 B=1000ps t:651.6 (51.0)(5.006)Time:00:00:00(    0 sec.)(-2)
+
+
+Total wirelength: 2204.000000
+Total Delay: (calc_buffered_node_delay:bst_sub1.cxx) 651.573665 ps
+R_buffer =  100.000000 Oh
+C_buffer =  50.000000 FF
+Delay_buffer =  0.100000 ns
+R[H], R[V]: 0.016600 Oh  0.016600 Oh
+C[H], C[V]: 0.002700 FF  0.002700 FF 
+Routing pattern: 1.0 (1:HV, 0:VH) 
+
+k=-1, Cost_fx=1.0,N_Neighbor=1 
+skew(19)=49.932429=(50.978585-1.046156) 
+BME_MODE
+
+Max_n_regions (irredundant) = 0 (0)
+0 pairs of overlapped regions (0%)
+Node[15].n_mr = 8
+Node[11].npts = 4
+n_region_type:(V=0,H=0,M=20,F=0,T=0)
+open file (for write) BENCHMARKS/n10.top_B1000
+
+open file (for write) BENCHMARKS/n10.xg_B1000
+
+open file (clock cells) BENCHMARKS/n10.clocks
+
+Writing to clocks file: BENCHMARKS/n10.clocks
+open file (for write) BENCHMARKS/n10_area.xg_B1000
+
+User: [00:00:00 ]
+Sys:  [00:00:00 ]
+
+
+
+
+Current Time: Wed May 23 17:18:26 2018
+ 
+=================================
+Time:00:00:00(    0 sec.)
+Total wirelength: 2204.000000
+=================================
+Exiting 
+
+
+
+
+

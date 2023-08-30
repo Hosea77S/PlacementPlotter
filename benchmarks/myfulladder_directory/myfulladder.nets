@@ -1,0 +1,109 @@
+UCLA nets 1.0 
+# Created by Soheil Nazar Shahsavani (nazarsha@usc.edu) 
+# Platform
+
+NumNets : 34
+NumPins : 68
+
+NetDegree : 2 a
+	a_Pad	O : 0.000000	0.000000
+	THmitll_SPLITT_14_n14	I : 0.000000	0.000000
+NetDegree : 2 b
+	b_Pad	O : 0.000000	0.000000
+	THmitll_SPLITT_15_n15	I : 0.000000	0.000000
+NetDegree : 2 c
+	c_Pad	O : 0.000000	0.000000
+	THmitll_DFFT_12_n12	I : 0.000000	0.000000
+NetDegree : 2 s
+	s_Pad	I : 0.000000	0.000000
+	THmitll_DFFT_11_s	O : 0.100000	0.100000
+NetDegree : 2 co
+	co_Pad	I : 0.000000	0.000000
+	THmitll_OR2T_10_co	O : 0.200000	0.200000
+NetDegree : 2 n15
+	THmitll_AND2T_9_n9	I : 0.000000	0.000000
+	THmitll_SPLITT_15_n15	O : 0.100000	0.100000
+NetDegree : 2 n14
+	THmitll_AND2T_9_n9	I : 0.100000	0.100000
+	THmitll_SPLITT_14_n14	O : 0.100000	0.100000
+NetDegree : 2 n6
+	THmitll_XORT_6_n6	O : 0.200000	0.200000
+	THmitll_SPLITT_16_n16	I : 0.000000	0.000000
+NetDegree : 2 n16
+	THmitll_AND2T_8_n8	I : 0.000000	0.000000
+	THmitll_SPLITT_16_n16	O : 0.100000	0.100000
+NetDegree : 2 n17
+	THmitll_AND2T_8_n8	I : 0.100000	0.100000
+	THmitll_SPLITT_17_n17	O : 0.100000	0.100000
+NetDegree : 2 n7
+	THmitll_XORT_7_n7	O : 0.200000	0.200000
+	THmitll_DFFT_11_s	I : 0.000000	0.000000
+NetDegree : 2 n8
+	THmitll_AND2T_8_n8	O : 0.200000	0.200000
+	THmitll_OR2T_10_co	I : 0.100000	0.100000
+NetDegree : 2 n9
+	THmitll_AND2T_9_n9	O : 0.200000	0.200000
+	THmitll_DFFT_13_n13	I : 0.000000	0.000000
+NetDegree : 2 n13
+	THmitll_OR2T_10_co	I : 0.000000	0.000000
+	THmitll_DFFT_13_n13	O : 0.100000	0.100000
+NetDegree : 2 n12
+	THmitll_DFFT_12_n12	O : 0.100000	0.100000
+	THmitll_SPLITT_17_n17	I : 0.000000	0.000000
+NetDegree : 2 n14_2
+	THmitll_XORT_6_n6	I : 0.100000	0.100000
+	THmitll_SPLITT_14_n14	O : 0.200000	0.200000
+NetDegree : 2 n15_2
+	THmitll_XORT_6_n6	I : 0.000000	0.000000
+	THmitll_SPLITT_15_n15	O : 0.200000	0.200000
+NetDegree : 2 n16_2
+	THmitll_XORT_7_n7	I : 0.000000	0.000000
+	THmitll_SPLITT_16_n16	O : 0.200000	0.200000
+NetDegree : 2 n17_2
+	THmitll_XORT_7_n7	I : 0.100000	0.100000
+	THmitll_SPLITT_17_n17	O : 0.200000	0.200000
+NetDegree : 2 clk0
+	SplitCLK_0_15	O : 0.600000	0.600000
+	SplitCLK_0_11	I : 0.400000	0.400000
+NetDegree : 2 clk1
+	SplitCLK_0_15	O : 0.500000	0.500000
+	SplitCLK_2_14	I : 0.400000	0.400000
+NetDegree : 2 clk2
+	SplitCLK_2_14	O : 0.600000	0.600000
+	SplitCLK_0_12	I : 0.400000	0.400000
+NetDegree : 2 clk3
+	SplitCLK_2_14	O : 0.500000	0.500000
+	SplitCLK_4_13	I : 0.400000	0.400000
+NetDegree : 2 clk4
+	SplitCLK_4_13	O : 0.500000	0.500000
+	THmitll_OR2T_10_co	I : 0.400000	0.400000
+NetDegree : 2 clk5
+	SplitCLK_4_13	O : 0.600000	0.600000
+	THmitll_DFFT_12_n12	I : 0.400000	0.400000
+NetDegree : 2 clk6
+	SplitCLK_0_12	O : 0.500000	0.500000
+	THmitll_AND2T_9_n9	I : 0.400000	0.400000
+NetDegree : 2 clk7
+	SplitCLK_0_12	O : 0.600000	0.600000
+	THmitll_DFFT_13_n13	I : 0.400000	0.400000
+NetDegree : 2 clk8
+	SplitCLK_0_11	O : 0.500000	0.500000
+	SplitCLK_0_9	I : 0.400000	0.400000
+NetDegree : 2 clk9
+	SplitCLK_0_11	O : 0.600000	0.600000
+	SplitCLK_4_10	I : 0.400000	0.400000
+NetDegree : 2 clk10
+	SplitCLK_4_10	O : 0.500000	0.500000
+	THmitll_XORT_7_n7	I : 0.400000	0.400000
+NetDegree : 2 clk11
+	SplitCLK_4_10	O : 0.600000	0.600000
+	THmitll_DFFT_11_s	I : 0.400000	0.400000
+NetDegree : 2 clk12
+	SplitCLK_0_9	O : 0.500000	0.500000
+	THmitll_XORT_6_n6	I : 0.400000	0.400000
+NetDegree : 2 clk13
+	SplitCLK_0_9	O : 0.600000	0.600000
+	THmitll_AND2T_8_n8	I : 0.400000	0.400000
+NetDegree : 2 GCLK
+	GCLK_Pad	O : 0.500000	0.500000
+	SplitCLK_0_15	I : 0.400000	0.400000

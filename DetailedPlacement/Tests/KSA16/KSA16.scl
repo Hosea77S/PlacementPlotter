@@ -1,0 +1,169 @@
+UCLA scl 1.0
+# Written by BLIF2BOOKSHELF on Thu Jun  7 17:21:19 2018
+# SPORT Lab, University of Southern California, Los Angeles, CA 90089
+# Developers: Ting-Ru Lin <tingruli@usc.edu> and Massoud Pedram <pedram@usc.edu>
+
+NumRows : 18
+
+CoreRow Horizontal
+  Coordinate    :   600
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   720
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   840
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   960
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   1080
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   1200
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   1320
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   1440
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   1560
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   1680
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   1800
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   1920
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   2040
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   2160
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   2280
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   2400
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   2520
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End
+CoreRow Horizontal
+  Coordinate    :   2640
+  Height       :   120
+  Sitewidth    :   50
+  Sitespacing  :   50
+  Siteorient   :   1
+  Sitesymmetry  :   1
+  SubrowOrigin :   500	NumSites  :   38
+End

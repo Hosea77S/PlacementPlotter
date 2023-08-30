@@ -1,0 +1,31 @@
+UCLA nodes 1.0
+# Created by Soheil Nazar Shahsavani (nazarsha@usc.edu) 
+# Platform
+
+NumNodes : 25
+NumTerminals : 6
+	THmitll_XORT_6_n6	50	70
+	THmitll_XORT_7_n7	50	70
+	THmitll_AND2T_8_n8	50	70
+	THmitll_AND2T_9_n9	50	70
+	THmitll_OR2T_10_co	40	70
+	THmitll_DFFT_11_s	30	70
+	THmitll_DFFT_12_n12	30	70
+	THmitll_DFFT_13_n13	30	70
+	THmitll_SPLITT_14_n14	30	70
+	THmitll_SPLITT_15_n15	30	70
+	THmitll_SPLITT_16_n16	30	70
+	THmitll_SPLITT_17_n17	30	70
+	GCLK_Pad	100	120 terminal
+	a_Pad	100	120 terminal
+	b_Pad	100	120 terminal
+	c_Pad	100	120 terminal
+	s_Pad	100	120 terminal
+	co_Pad	100	120 terminal
+	SplitCLK_0_9	30	70
+	SplitCLK_4_10	30	70
+	SplitCLK_0_11	30	70
+	SplitCLK_0_12	30	70
+	SplitCLK_4_13	30	70
+	SplitCLK_2_14	30	70
+	SplitCLK_0_15	30	70

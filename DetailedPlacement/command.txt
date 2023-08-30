@@ -1,0 +1,6 @@
+gcc -o ROW *.cxx *.cpp *.c -lstdc++ -lm -Wno-deprecated
+
+g++ -o DP *.cxx *.cpp -lm -Wno-deprecated
+
+
+./ROW -save -ironPasses 19 -f 

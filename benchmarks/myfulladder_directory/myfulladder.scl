@@ -1,0 +1,32 @@
+UCLA scl 1.0
+# Created by Soheil Nazar Shahsavani (nazarsha@usc.edu)
+
+NumRows : 3
+
+CoreRow Horizontal
+  Coordinate    :   1000
+  Height    :   70
+  Sitewidth    :   50
+  Sitespacing    :   50
+  Siteorient    :   1
+  Sitesymmetry    :   1
+  SubrowOrigin    :   1000  NumSites  :   4
+End
+CoreRow Horizontal
+  Coordinate    :   1070
+  Height    :   70
+  Sitewidth    :   50
+  Sitespacing    :   50
+  Siteorient    :   1
+  Sitesymmetry    :   1
+  SubrowOrigin    :   1000  NumSites  :   4
+End
+CoreRow Horizontal
+  Coordinate    :   1140
+  Height    :   70
+  Sitewidth    :   50
+  Sitespacing    :   50
+  Siteorient    :   1
+  Sitesymmetry    :   1
+  SubrowOrigin    :   1000  NumSites  :   4
+End

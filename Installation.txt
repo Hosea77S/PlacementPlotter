@@ -1,0 +1,20 @@
+Installation
+
+
+qPlace:
+
+Requirements:
+
+install g++
+$ yum install gcc-c++
+
+$ yum install gnuplot
+
+$ yum install boost-devel
+
+$ yum install freetype-devel
+
+
+To compile go to the top level directory & do:
+
+$ make

@@ -1,0 +1,184 @@
+defparse.y: In function ‘int defparse()’:
+defparse.y:368:62: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘std::vector<dbRow*>::size_type {aka long unsigned int}’ [-Wformat=]
+./freqDistr.cxx: In member function ‘void CumulativeFrequencyDistribution::printEqualSubranges(std::ostream&) const’:
+./freqDistr.cxx:180:63: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘__gnu_cxx::__normal_iterator<const double*, std::vector<double> >::difference_type {aka long int}’ [-Wformat=]
+      sprintf(buf2,"%20s %-5d%s",buf1,curMaxIter-curMinIter,spc);
+                                                               ^
+lefparse.tab.c: In function ‘int lefparse()’:
+lefparse.tab.c:6905:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+lefparse.tab.c:7049:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./ParserLEFDEFq.cxx: In static member function ‘static int ParserLEFDEFq::HandleLEFPin(lefrCallbackType_e, lefiPin*, void*)’:
+./ParserLEFDEFq.cxx:847:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   char* pinShape = "\0";
+                    ^
+./ParserLEFDEFq.cxx:848:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   char* pinUse = "\0";
+                  ^
+./ParserLEFDEFq.cxx:849:24: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   char* pinDirection = "\0";
+                        ^
+./ParserLEFDEFq.cxx: In static member function ‘static int ParserLEFDEFq::HandleDEFSite(defrCallbackType_e, defiSite*, void*)’:
+./ParserLEFDEFq.cxx:2900:66: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘std::vector<dbRow*>::size_type {aka long unsigned int}’ [-Wformat=]
+   sprintf(siteName, "Anonymous Row %d", parserPtr->rowList.size());
+                                                                  ^
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+ };
+ ^
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1031:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+ };
+ ^
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./CongestionMaps.cxx:1097:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+./RBPlacement.cxx: In member function ‘char* RBPlacement::toChar(clusterNodeOrient) const’:
+./RBPlacement.cxx:1654:17: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       return("N");
+                 ^
+./RBPlacement.cxx:1657:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       return("FN");
+                  ^
+./RBPlacement.cxx:1660:17: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       return("S");
+                 ^
+./RBPlacement.cxx:1663:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       return("FS");
+                  ^
+./RBPlacement.cxx:1666:17: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       return("W");
+                 ^
+./RBPlacement.cxx:1669:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       return("FW");
+                  ^
+./RBPlacement.cxx:1672:17: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       return("E");
+                 ^
+./RBPlacement.cxx:1675:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       return("FE");
+                  ^
+./RBPlacement.cxx:1678:17: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+       return("I");
+                 ^
+./RBPlacement.cxx:1682:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   return("N");
+             ^

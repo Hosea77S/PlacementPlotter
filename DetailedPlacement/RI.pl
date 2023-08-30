@@ -1,0 +1,166 @@
+UCLA pl 1.0
+# Created      : Sun Mar 26 20:48:00 2017
+# User         : soheil@sahand (Soheil Nazar Shahsavani,EEB-206,,) 
+# Platform     : Linux 3.16.0-4-amd64 #1 SMP Debian 3.16.39-1 (2016-12-30) x86_64 
+
+
+  a0_Pad         500        1620 :  N 
+  a1_Pad         902        1620 :  N 
+  b0_Pad        1304        1620 :  N 
+  a2_Pad        1706        1620 :  N 
+  b1_Pad        2210        1420 :  N 
+  a3_Pad        2210        1270 :  N 
+  b2_Pad        2210        1120 :  N 
+  b3_Pad        2210         970 :  N 
+ cin_Pad         500         500 :  N 
+GCLK_Pad         902         500 :  N 
+cout_Pad        1304         500 :  N 
+sum0_Pad        1706         500 :  N 
+sum1_Pad         400         800 :  N 
+sum2_Pad         400         950 :  N 
+sum3_Pad         400        1100 :  N 
+and2_31_n31        1340        1080 :  N 
+and2_23_n23         580        1240 :  N 
+and2_32_n32         930        1240 :  N 
+and2_24_n24        1120         760 :  N 
+and2_41_n41        1130        1240 :  N 
+and2_42_n42        1410         760 :  N 
+and2_34_n34         930         920 :  N 
+and2_26_n26         910         600 :  N 
+and2_18_n18         990        1400 :  N 
+and2_35_n35         710         920 :  N 
+and2_27_n27         850         760 :  N 
+and2_19_n19         680         600 :  N 
+and2_44_n44        1260         600 :  N 
+and2_45_n45        1130         600 :  N 
+and2_38_n38        1350        1240 :  N 
+and2_39_n39        1200        1400 :  N 
+or2_46_cout        1210         920 :  N 
+DFF_50_n173         640         920 :  N 
+DFF_51_n174         650        1080 :  N 
+DFF_60_n183        1140         920 :  N 
+DFF_52_n175         800        1240 :  N 
+DFF_61_n184        1400         600 :  N 
+DFF_53_n176         740        1080 :  N 
+DFF_70_n193         500         760 :  N 
+DFF_62_n185        1470         600 :  N 
+DFF_54_n177         640        1400 :  N 
+DFF_47_n170         780        1080 :  N 
+DFF_71_n194         850        1080 :  N 
+DFF_63_n186        1490         760 :  N 
+DFF_55_n178         570        1400 :  N 
+DFF_48_n171        1070         920 :  N 
+DFF_72_n195        1130        1400 :  N 
+DFF_56_n179         500        1400 :  N 
+DFF_57_n180        1480        1400 :  N 
+DFF_49_n172        1114        1200 :  N 
+DFF_73_n196        1340         760 :  N 
+DFF_65_n188         570         920 :  N 
+DFF_58_n181        1370         920 :  N 
+DFF_59_n182        1075         720 :  N 
+DFF_68_n191         640         600 :  N 
+DFF_69_n192         990         760 :  N 
+DFF_64_sum0        1540         600 :  N 
+DFF_66_sum1         500         920 :  N 
+DFF_67_sum2         530        1080 :  N 
+or2_20_n20         650         760 :  N 
+or2_40_n40        1400        1400 :  N 
+or2_33_n33         720        1240 :  N 
+or2_25_n25        1200         760 :  N 
+or2_43_n43        1290         920 :  N 
+or2_36_n36         690        1080 :  N 
+or2_28_n28         570         760 :  N 
+xor2a_37_sum3         500        1240 :  N 
+Split_100_n223        1420        1080 :  N 
+Split_101_n224        1290        1240 :  N 
+xor2a_21_n21         790         920 :  N 
+xor2a_30_n30        1210        1240 :  N 
+xor2a_22_n22        1150        1080 :  N 
+xor2a_15_n15         850        1400 :  N 
+xor2a_16_n16         830         600 :  N 
+xor2a_17_n17         770        1400 :  N 
+xor2a_29_n29         570        1080 :  N 
+Split_80_n203        1010        1080 :  N 
+Split_81_n204        1010        1240 :  N 
+Split_82_n205         870        1240 :  N 
+Split_90_n213         730         600 :  N 
+Split_74_n197         880         600 :  N 
+Split_83_n206        1280         760 :  N 
+Split_91_n214        1010         920 :  N 
+Split_75_n198         800         600 :  N 
+Split_84_n207         960         600 :  N 
+Split_92_n215         790         760 :  N 
+Split_76_n199         930         760 :  N 
+Split_77_n200        1060         760 :  N 
+Split_85_n208        1340        1400 :  N 
+Split_93_n216         870         920 :  N 
+Split_78_n201         980        1080 :  N 
+Split_86_n209        1280        1400 :  N 
+Split_94_n217         930        1400 :  N 
+Split_79_n202         730         760 :  N 
+Split_87_n210        1070        1240 :  N 
+Split_95_n218         710        1400 :  N 
+Split_88_n211        1340         600 :  N 
+Split_96_n219        1280        1080 :  N 
+Split_89_n212         610         600 :  N 
+Split_97_n220        1430        1240 :  N 
+Split_98_n221        1070        1400 :  N 
+Split_99_n222         660        1240 :  N 
+SplitCLK_4_60        1411         880 :  N 
+SplitCLK_4_61         785        1040 :  N 
+SplitCLK_4_62        1117         720 :  N 
+SplitCLK_4_63        1165        1520 :  N 
+SplitCLK_4_64        1175        1040 :  N 
+SplitCLK_4_65         656        1200 :  N 
+SplitCLK_4_66        1473         720 :  N 
+SplitCLK_4_67         818        1200 :  N 
+SplitCLK_4_68         535         880 :  N 
+SplitCLK_4_69         651        1520 :  N 
+SplitCLK_4_70         535        1040 :  N 
+SplitCLK_4_71         576        1200 :  N 
+SplitCLK_4_72         540        1360 :  N 
+SplitCLK_0_73        1160         880 :  N 
+SplitCLK_0_74        1170        1360 :  N 
+SplitCLK_4_75         760        1360 :  N 
+SplitCLK_4_76        1440        1520 :  N 
+SplitCLK_4_77        1385        1040 :  N 
+SplitCLK_0_78         810        1520 :  N 
+SplitCLK_4_79         685         720 :  N 
+SplitCLK_4_80        1155        1200 :  N 
+SplitCLK_0_81        1000        1040 :  N 
+SplitCLK_4_82         920         880 :  N 
+SplitCLK_4_83         875         720 :  N 
+SplitCLK_4_84        1340        1200 :  N 
+SplitCLK_2_85         803        1360 :  N 
+SplitCLK_4_86         777        1200 :  N 
+SplitCLK_0_87         581        1520 :  N 
+SplitCLK_4_88        1543         720 :  N 
+SplitCLK_4_89        1285         720 :  N 
+SplitCLK_2_90        1481         880 :  N 
+SplitCLK_2_91         605         880 :  N 
+SplitCLK_4_92         855        1040 :  N 
+SplitCLK_6_93        1117        1520 :  N 
+SplitCLK_6_94         616        1200 :  N 
+SplitCLK_4_95        1315        1040 :  N 
+SplitCLK_6_96        1229        1520 :  N 
+SplitCLK_4_97         990         880 :  N 
+SplitCLK_2_98         581        1360 :  N 
+SplitCLK_6_99        1205        1200 :  N 
+SplitCLK_6_100         645        1040 :  N 
+SplitCLK_4_101         700         840 :  N 
+SplitCLK_4_102         873        1360 :  N 
+SplitCLK_6_103        1215         720 :  N 
+SplitCLK_0_104        1403         720 :  N 
+SplitCLK_0_105         874         880 :  N 
+SplitCLK_6_106        1245        1040 :  N 
+SplitCLK_4_107         736        1200 :  N 
+SplitCLK_4_108        1355         720 :  N 
+SplitCLK_6_109         671        1360 :  N 
+SplitCLK_2_110         675         880 :  N 
+SplitCLK_0_111        1250        1360 :  N 
+SplitCLK_6_112         696        1200 :  N 
+SplitCLK_4_113         745         880 :  N 
+SplitCLK_0_114        1341         880 :  N 
+SplitCLK_2_115         715        1040 :  N 
+SplitCLK_0_116        1271         880 :  N 
+SplitCLK_0_117         898        1040 :  N 

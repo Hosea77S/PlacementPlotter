@@ -1,0 +1,159 @@
+*******************************************************************************
+* Version BSTsource1.1 ,  05-11-2002                                          *
+* Copyright (C) 1994-2002  by Andrew B. Kahng, C.-W. Albert Tsao              *
+* usage: bst -i inputFileName -B number -spD splitterDelay                    *
+*******************************************************************************
+
+SPL_Delay: 0
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+Unknown keyword  Downstream_Delay: 
+nterms is : 10
+npoints is : 20
+
+--------------------------------------------------------
+bst BENCHMARKS/n10 (nterms=10, Npoints=20) N_Obstalces = 0
+Elmore delay model  Skew_B = 0.00 k_Parameter: -1 CostFx=1.0
+BME_MODE
+Current Time: Wed May 23 17:18:13 2018
+ 
+--------------------------------------------------------
+
+============================================================
+=  run ExG_DME on cluster (L=1:i=0/1) cid=0 
+=  n_trees = 10 
+============================================================
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 60/10 = 6.0 
+nodes_with_neighbor/nodes = 10/10 = 1.00
+neighbors/nodes = 10/10 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=10, #_nodes=11, #_mering_pairs=3
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 42/7 = 6.0 
+nodes_with_neighbor/nodes = 7/7 = 1.00
+neighbors/nodes = 7/7 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=7, #_nodes=14, #_mering_pairs=3
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 12/4 = 3.0 
+nodes_with_neighbor/nodes = 4/4 = 1.00
+neighbors/nodes = 4/4 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=4, #_nodes=17, #_mering_pairs=1
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 6/3 = 2.0 
+nodes_with_neighbor/nodes = 3/3 = 1.00
+neighbors/nodes = 3/3 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=3, #_nodes=18, #_mering_pairs=1
+
+show_NNG_infomation(bst.cxx)
+
+comparisons/nodes = 2/2 = 1.0 
+nodes_with_neighbor/nodes = 2/2 = 1.00
+neighbors/nodes = 2/2 = 1.00
+max_neighbors = 1 
+Time:00:00:00(    0 sec.)
+
+
+ExG_DME(bst.cxx)
+
+#_trees=2, #_nodes=19, #_mering_pairs=1
+
+Total numver of buffered_Node: 1
+set_MaxClusterDelay_sub: 613.143
+set_MaxClusterDelay_sub: 613.143
+Before: pt: (1.47396,1.47396)After: pt: (1.47396,1.47396)Before: pt: (1.4698,1.4698)After: pt: (1.4698,1.4698)Before: pt: (3.00457,3.00457)After: pt: (3.00457,3.00457)Before: pt: (0.207514,0.207514)After: pt: (0.207514,0.207514)Before: pt: (0.327885,0.327885)After: pt: (0.327885,0.327885)Before: pt: (1.45724,1.45724)After: pt: (1.45724,1.45724)Before: pt: (5.49627,5.49627)After: pt: (5.49627,5.49627)Before: pt: (12.2784,12.2784)After: pt: (12.2784,12.2784)Before: pt: (12.2784,12.2784)After: pt: (12.2784,12.2784)
+
+================== level 0 ===============================
+WL[ 0]=  +3200.7 skew=0 (12.3-12.3)C5.009 (n 10) R_b100  Stub0(0)  t12
+total capacitance of  level[ 0] = 5.059 Frad
+===========================================================
+
+total wirelength = 3201 
+
+BENCHMARKS/n10:WL=      3201 B=0ps t:613.1 (12.3)(5.009)Time:00:00:00(    0 sec.)(-2)
+
+
+Total wirelength: 3200.729714
+Total Delay: (calc_buffered_node_delay:bst_sub1.cxx) 613.142613 ps
+R_buffer =  100.000000 Oh
+C_buffer =  50.000000 FF
+Delay_buffer =  0.100000 ns
+R[H], R[V]: 0.016600 Oh  0.016600 Oh
+C[H], C[V]: 0.002700 FF  0.002700 FF 
+Routing pattern: 1.0 (1:HV, 0:VH) 
+
+k=-1, Cost_fx=1.0,N_Neighbor=1 
+Treewire = 3155.4 (detour:1.4%) ***n_detour_nodes = 4 (40.000000%) ***
+skew(19)=0.000000=(12.278416-12.278416) 
+BME_MODE
+
+Max_n_regions (irredundant) = 0 (0)
+0 pairs of overlapped regions (0%)
+Node[10].n_mr = 2
+Node[10].npts = 2
+n_region_type:(V=0,H=0,M=20,F=0,T=0)
+open file (for write) BENCHMARKS/n10.top_B0
+
+open file (for write) BENCHMARKS/n10.xg_B0
+
+open file (clock cells) BENCHMARKS/n10.clocks
+
+Writing to clocks file: BENCHMARKS/n10.clocks
+open file (for write) BENCHMARKS/n10_area.xg_B0
+
+User: [00:00:00 ]
+Sys:  [00:00:00 ]
+
+
+
+
+Current Time: Wed May 23 17:18:13 2018
+ 
+=================================
+Time:00:00:00(    0 sec.)
+Total wirelength: 3200.729714
+=================================
+Exiting 
+
+
+
+
+
